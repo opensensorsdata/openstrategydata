@@ -1,0 +1,61 @@
+# Main Text
+author: OSD opensensorsdata srl
+name: OSD opensensorsdata srl
+aka: OSD
+title: 'OSD opensensorsdata srl Data asset management'
+subtitle: 'Data asset management'
+payoff: 'Gestione e open business model del patrimonio dati'
+description: 'Gestione e open business model del patrimonio dati'
+locale: it_IT
+
+# Url
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://osd.tools
+
+# Contact
+twitter: osd_it
+github:  opensensorsdata
+facebook: opensensorsdata
+email: contact@osd.tools
+github_username: opensensorsdata
+facebook_username: opensensorsdata
+twitter_username: osd_it
+
+# SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/img/seo/osd-opg-facebook.png"
+
+# Favicon
+touch_icon: "https://wwww.osd.tools/assets/img/logos/apple-touch-icon-144-precomposed.png"
+favicon: "https://www.osd.tools/assets/img/logos/favicon.ico"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+#
+
+sass:
+  sass_dir: _sass
+  style: compression
+
+collections:
+  activities:
+    output: true
+  services:
+    output: true
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
