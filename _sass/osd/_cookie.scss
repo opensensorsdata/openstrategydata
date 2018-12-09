@@ -1,0 +1,74 @@
+#cookie {
+  position: fixed;
+  display: block;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: .9rem;
+  background-color: rgba(233, 30, 99, .9);
+  text-align: center;
+  border-top: 1px solid #3f51b5;
+
+  a:link {
+    text-decoration: none;
+    background: -webkit-linear-gradient(#e91e63, #e91e63), -webkit-linear-gradient(#e91e63, #e91e63), -webkit-linear-gradient(#fff, #fff);
+    background: linear-gradient(#e91e63, #e91e63), linear-gradient(#e91e63, #e91e63), linear-gradient(#fff, #fff);
+    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    text-shadow: 0.03em 0 #e91e63, -0.03em 0 #e91e63, 0 0.03em #e91e63, 0 -0.03em #e91e63, 0.06em 0 #e91e63, -0.06em 0 #e91e63, 0.09em 0 #e91e63, -0.09em 0 #e91e63, 0.12em 0 #e91e63, -0.12em 0 #e91e63, 0.15em 0 #e91e63, -0.15em 0 #e91e63;
+    background-position: 0% 93%, 100% 93%, 0% 93%;
+  }
+}
+
+.btn {
+  background-color: #fffff8;
+  color: #111;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: sans-serif;
+}
+
+.alert-text {
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5em;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  a:link {
+    background-position-y: 87%, 87%, 87%;
+  }
+
+  a:link::selection {
+    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+    background: #b4d5fe;
+  }
+
+  a:link::-moz-selection {
+    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
+    background: #b4d5fe;
+  }
+}
+  input {
+    display: none;
+
+
+    // Put text in CSS so search engines don't index it
+    // This is optional!
+    &:not(:checked) ~ span::before {
+      content: "";
+      display: inline;
+    }
+
+    &:checked ~ * {
+      display: none;
+      // Prevent interacting with any elements in the notice after clicking it away.
+      // This is optional!
+      pointer-events: none;
+    }
+  }
