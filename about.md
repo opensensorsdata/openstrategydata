@@ -16,3 +16,7 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+url: "https://www.spreaker.com/user/innovazione-imprecazione"
+id: "innovazione-imprecazione"
+text: "Il podcast di OSD per tutti quelli che hanno detto almeno una volta della vita <i>Maledetta innovazione!</i>"

@@ -4,6 +4,30 @@ layout: default
 
 {% for service in site.data.services %}
 <section id="{{ service.id }}">
-  <p class="measure lh-copy"><a class="white" href="{{ service.url }}">{{ service.title }}</a>: {{ service.text }}</p>
+  <h4>{{ service.title }} • <small><a class="white" href="{{ service.url }}">permalink</a></small></h4>
+  <p class="measure lh-copy">{{ service.text }}</p>
 </section>
 {% endfor %}
+
+<section id="Fatto">
+  {% for activity in site.data.activities %}
+    <ul>
+      <li><small>{{ activity.periodo }}</small> <b>{{ activity.title }}</b> per {{ activity.partner }}{% if activity.partner-2 %}e  {{ activity.partner-2 }}{% endif %}<i>, {{ activity.tag }}</i> <small>(<a href="{{ activity.link-progetto }}">link</a>)</small></li>
+    </ul>
+  {% endfor %}
+</section>
+
+<section id="Leggi">
+  <h4>Leggi</h4>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+
+<section id="Ascolta">
+  <h4>Ascolta</h4>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+
+<section id="Acquista">
+  <h4>Acquista</h4>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
