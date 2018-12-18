@@ -2,10 +2,18 @@
 layout: default
 ---
 
+{% assign chi = site.chi %}
+{% for item in site.data.chi %}
+<section id="{{ item.id }}">
+  <h4>{{ item.title }} <small class="spacing-tight"><a class="" href="{{ item.url }}">permalink</a></small></h4>
+  <p class="">{{ item.text }}</p>
+</section>
+{% endfor %}
+
 {% for service in site.data.services %}
 <section id="{{ service.id }}">
-  <h4>{{ service.title }} • <small><a class="white" href="{{ service.url }}">permalink</a></small></h4>
-  <p class="measure lh-copy">{{ service.text }}</p>
+  <h4>{{ service.title }} <small><a class="" href="{{ service.url }}">permalink</a></small></h4>
+  <p class="">{{ service.text }}</p>
 </section>
 {% endfor %}
 
@@ -17,17 +25,10 @@ layout: default
   {% endfor %}
 </section>
 
-<section id="Leggi">
-  <h4>Leggi</h4>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</section>
-
-<section id="Ascolta">
-  <h4>Ascolta</h4>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</section>
-
+{% assign acquista = site.acquista %}
+{% for item in site.data.acquista %}
 <section id="Acquista">
-  <h4>Acquista</h4>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <h4>Acquista <small class="spacing-tight"><a class="" href="/#Acquista">permalink</a></small></h4>
+  <p class="">{{ item.text }}</p>
 </section>
+{% endfor %}

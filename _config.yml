@@ -10,7 +10,7 @@ locale: it_IT
 
 # Url
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://openstrategydata.com
+url: https://openstrategydata.gitlab.io
 
 # Contact
 twitter: osd_it
