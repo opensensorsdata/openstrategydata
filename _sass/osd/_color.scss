@@ -17,3 +17,22 @@
 //Border Color
 .b--osd-indigo { border-color: #3f51b5; }
 .b--osd-pink { border-color: #e91e63; }
+
+.square { height: .8em; width: .8em;}
+.square15 { height: 1.5em; width: 1.5em; border-radius: .3em}
+.rot15 {
+  -ms-transform: rotate(15deg); /* IE 9 */
+  -ms-transform-origin: 100% 0%; /* IE 9 */
+  -webkit-transform: rotate(15deg); /* Safari 3-8 */
+  -webkit-transform-origin: 100% 0%; /* Safari 3-8 */
+  transform: rotate(15deg);
+  transform-origin: 100% 0%;
+}
+.rot30 {
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -ms-transform-origin: 100% 0%; /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Safari 3-8 */
+  -webkit-transform-origin: 100% 0%; /* Safari 3-8 */
+  transform: rotate(30deg);
+  transform-origin: 100% 0%;
+}
