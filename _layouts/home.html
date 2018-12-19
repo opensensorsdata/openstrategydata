@@ -10,10 +10,19 @@ layout: default
 </section>
 {% endfor %}
 
-{% for service in site.data.services %}
-<section id="{{ service.id }}">
-  <h4><a class="" href="{{ service.url }}">#</a> {{ service.title }}</h4>
-  <p class="">{{ service.text }}</p>
+{% assign cosa = site.cosa %}
+{% for item in site.data.cosa %}
+<section id="{{ item.id }}">
+  <h4><a class="" href="{{ item.url }}">#</a> {{ item.title }}</h4>
+  <p class="">{{ item.text }}</p>
+</section>
+{% endfor %}
+
+{% assign cosa = site.come %}
+{% for item in site.data.come %}
+<section id="{{ item.id }}">
+  <h4><a class="" href="{{ item.url }}">#</a> {{ item.title }}</h4>
+  <p class="">{{ item.text }}</p>
 </section>
 {% endfor %}
 
