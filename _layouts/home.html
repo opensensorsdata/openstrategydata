@@ -5,14 +5,14 @@ layout: default
 {% assign chi = site.chi %}
 {% for item in site.data.chi %}
 <section id="{{ item.id }}">
-  <h4>{{ item.title }} <small class="spacing-tight"><a class="" href="{{ item.url }}">permalink</a></small></h4>
+  <h4><a class="" href="{{ service.url }}">#</a> {{ item.title }}</h4>
   <p class="">{{ item.text }}</p>
 </section>
 {% endfor %}
 
 {% for service in site.data.services %}
 <section id="{{ service.id }}">
-  <h4>{{ service.title }} <small><a class="" href="{{ service.url }}">permalink</a></small></h4>
+  <h4><a class="" href="{{ service.url }}">#</a> {{ service.title }}</h4>
   <p class="">{{ service.text }}</p>
 </section>
 {% endfor %}
@@ -28,7 +28,7 @@ layout: default
 {% assign acquista = site.acquista %}
 {% for item in site.data.acquista %}
 <section id="Acquista">
-  <h4>Acquista <small class="spacing-tight"><a class="" href="/#Acquista">permalink</a></small></h4>
+  <h4><a class="" href="{{ service.url }}">#</a> Acquista </h4>
   <p class="">{{ item.text }}</p>
 </section>
 {% endfor %}
