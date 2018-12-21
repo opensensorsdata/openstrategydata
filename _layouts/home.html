@@ -5,7 +5,7 @@ layout: default
 {% assign chi = site.chi %}
 {% for item in site.data.chi %}
 <section id="{{ item.id }}">
-  <h4><a class="" href="{{ service.url }}">#</a> {{ item.title }}</h4>
+  <h4><a class="link" href="{{ service.url }}">#</a> {{ item.title }}</h4>
   <p class="">{{ item.text }}</p>
 </section>
 {% endfor %}
@@ -26,18 +26,22 @@ layout: default
 </section>
 {% endfor %}
 
+<section id="Acquista">
+  <h4><a class="" href="#Compra">#</a> Compra</h4>
+  {% assign acquista = site.acquista %}
+  {% for item in site.data.acquista %}
+  <ul class="list pl2">
+    <li class="">{{ item.price }}: {{ item.description }}</li>
+  </ul>
+
+</section>
+{% endfor %}
+
+<h5><a class="" href="#Attività">#</a> Alcune attività</h5>
 <section id="Fatto">
   {% for activity in site.data.activities %}
-    <ul>
+    <ul class="list pl3">
       <li><small>{{ activity.periodo }}</small> <b>{{ activity.title }}</b> per {{ activity.partner }}{% if activity.partner-2 %}e  {{ activity.partner-2 }}{% endif %}<i>, {{ activity.tag }}</i> <small>(<a href="{{ activity.link-progetto }}">link</a>)</small></li>
     </ul>
   {% endfor %}
 </section>
-
-{% assign acquista = site.acquista %}
-{% for item in site.data.acquista %}
-<section id="Acquista">
-  <h4><a class="" href="{{ item.url }}">#</a> Acquista </h4>
-  <p class="">{{ item.text }}</p>
-</section>
-{% endfor %}
