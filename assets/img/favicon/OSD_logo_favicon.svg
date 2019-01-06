@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="261.14374mm"
+   height="261.14374mm"
+   viewBox="0 0 261.14374 261.14374"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   sodipodi:docname="OSD_logo_favicon.svg"
+   inkscape:export-filename="/Users/lucacorsato/Documents/osd/website/openstrategydata/assets/img/favicon/OSD_logo_favicon.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.96422622"
+     inkscape:cx="272.37846"
+     inkscape:cy="510.93661"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1097"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(36.089729,80.727978)">
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:7.66316462;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path858"
+       cx="94.48214"
+       cy="49.843891"
+       r="130.57187" />
+    <g
+       id="g825"
+       transform="matrix(1.4754099,0,0,1.4754099,-43.330239,-30.046279)">
+      <rect
+         ry="4.6599278"
+         rx="4.6599278"
+         transform="matrix(-0.8660254,-0.50000001,-0.50000001,0.8660254,0,0)"
+         style="opacity:1;fill:#357edd;fill-opacity:1;stroke:none;stroke-width:1.80087304;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect823"
+         width="46.599277"
+         height="46.599277"
+         x="-173.41641"
+         y="-53.397236" />
+      <rect
+         ry="4.6599278"
+         rx="4.6599278"
+         transform="scale(-1,1)"
+         y="34.221703"
+         x="-60.383503"
+         height="46.599281"
+         width="46.599281"
+         id="rect825"
+         style="opacity:1;fill:#d5008f;fill-opacity:1;stroke:none;stroke-width:1.80087316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="opacity:1;fill:#777777;fill-opacity:1;stroke:none;stroke-width:1.80087316;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1122"
+         width="46.599281"
+         height="46.599281"
+         x="-124.25546"
+         y="3.7786403"
+         transform="matrix(-0.96592582,-0.25881906,-0.25881906,0.96592582,0,0)"
+         rx="4.6599278"
+         ry="4.6599278" />
+    </g>
+  </g>
+</svg>
